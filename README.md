@@ -37,23 +37,33 @@ Meta tags and descriptions added for better visibility on search engines.
 
 
 🛠️ Technologies Used
+
 Frontend Framework: React.js
+
 Styling: Tailwind CSS
+
 Icons: React Icons for visual enhancements
+
 Deployment: Netlify / Vercel
 
 
 📌 Future Enhancements
+
 Add animations using Framer Motion.
+
 Integrate a blog section to share my knowledge and experiences.
+
 Add a testimonials section for feedback and recommendations.
 
 
 
 📞 Contact Me
+
 Feel free to reach out to me via:
 
 Email    : neham.bba2023@ssism.org
+
 LinkedIn : www.linkedin.com/in/contact-neha-meena
+
 GitHub   : https://github.com/NehaMeena-debug
 
