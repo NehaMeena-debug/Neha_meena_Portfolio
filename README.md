@@ -1,4 +1,5 @@
 🚀 My Personal Portfolio
+
 Welcome to my Personal Portfolio! This project is built using React.js and Tailwind CSS, designed to showcase my skills, projects, and contact information in a visually appealing and responsive way.
 
 🌟 Features
@@ -33,15 +34,22 @@ Smooth scrolling and intuitive navigation between sections.
 SEO Optimized
 
 Meta tags and descriptions added for better visibility on search engines.
+
+
 🛠️ Technologies Used
 Frontend Framework: React.js
 Styling: Tailwind CSS
 Icons: React Icons for visual enhancements
 Deployment: Netlify / Vercel
+
+
 📌 Future Enhancements
 Add animations using Framer Motion.
 Integrate a blog section to share my knowledge and experiences.
 Add a testimonials section for feedback and recommendations.
+
+
+
 📞 Contact Me
 Feel free to reach out to me via:
 
