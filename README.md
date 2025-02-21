@@ -47,15 +47,6 @@ Icons: React Icons for visual enhancements
 Deployment: Netlify / Vercel
 
 
-📌 Future Enhancements
-
-Add animations using Framer Motion.
-
-Integrate a blog section to share my knowledge and experiences.
-
-Add a testimonials section for feedback and recommendations.
-
-
 
 📞 Contact Me
 
