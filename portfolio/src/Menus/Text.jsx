@@ -19,12 +19,12 @@ const RandomTextEffect = () => {
   
   useEffect(() => {
     setDisplayText(getRandomText());
-    setTimeout(() => setDisplayText(originalText), 200);
+    setTimeout(() => setDisplayText(originalText), 400);
   }, []);
 
   const handleHover = () => {
     setDisplayText(getRandomText());
-    setTimeout(() => setDisplayText(originalText),600);
+    setTimeout(() => setDisplayText(originalText),100);
   };
 
   const handleMouseDown = () => setDisplayText(getRandomText());

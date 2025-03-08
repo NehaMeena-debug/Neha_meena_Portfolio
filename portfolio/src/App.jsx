@@ -3,6 +3,8 @@ import Main from "./Menus/Main"
 import  "./index.css"
 import Cursor from "./Menus/Cursor"
 import Skill from "./Menus/Skill"
+import Skillui from "./Menus/Skillui"
+import Projects from "./Menus/Projects"
 
 
 const App = () =>{
@@ -12,7 +14,9 @@ const App = () =>{
     <Cursor/>
      <Navbar/>
      <Main/>
-     <Skill/>
+     {/* <Skill/> */}
+     <Skillui/>
+     <Projects/>
     </div>
     </>
   )
