@@ -7,11 +7,20 @@ const Card = ({icon,skill,description,logo}) => {
  
  
   const mouseMove = (e) => {
-    const rect = e.currentTarget.getBoundingClientRect(); // Get skill div position
-    setPosition({
-      x: e.clientX - rect.left, // X relative to div
-      y: e.clientY - rect.top,  // Y relative to div
-    });
+    const rect = e.currentTarget.getBoundingClientRect();
+    let x = e.clientX - rect.left;
+    let y = e.clientY - rect.top;
+
+    // Prevent overflow on right side
+    if (x > rect.width - 40) x = rect.width - 40;
+    if (x < 10) x = 10; 
+
+    // Prevent overflow on bottom
+    if (y > rect.height - 40) y = rect.height - 40;
+    if (y < 10) y = 10; 
+
+    setPosition({ x, y });
+
   };
   
 
@@ -25,7 +34,7 @@ const Card = ({icon,skill,description,logo}) => {
  
     return (
       <>
-      <div  className="flex relative mix-blend-difference relative text-left hover:bg-gray-900 justify-between text-white p-4 ml-40 mr-40 flex  whitespace-nowrap border border-b-1  border-gray-700 border-t-0  border-l-0  border-r-0"
+      <div  className="flex relative overflow-hidden mix-blend-difference  text-left hover:bg-gray-900 justify-between text-white p-4 ml-40 mr-40 flex  whitespace-nowrap border border-b-1  border-gray-700 border-t-0  border-l-0  border-r-0"
         onMouseMove={mouseMove} 
         onMouseEnter={mouseEnter} 
         onMouseLeave={mouseLeave}
