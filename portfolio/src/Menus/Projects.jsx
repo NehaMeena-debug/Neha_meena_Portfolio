@@ -5,10 +5,10 @@ return(
     <h2 className="text-4xl font-bold  text-white text-center p-12 mt-24 mb-12">Innovation Gallery</h2>
      <div className="flex flex-wrap justify-center align-center items-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2  ">
    <div className=" flex flex-wrap  justify-center align-center items-center ">
-    <div className="relative border border-1  border-gray-700 rounded-2xl  rounded overflow-hidden  transition-all h-96 w-96 duration-300">
+    <div className="relative group border border-1  border-gray-700 rounded-2xl overflow-hidden  transition-all h-96 w-96 duration-300">
     <img src="./image/rp.png" alt="recipe_finder_img" className=" w-full object-cover transition-transform duration-300 group-hover:scale-105"></img> 
     
-    <div className="p-8 border border-1  border-gray-700 rounded-2xl">
+    <div className="p-8 border border-1  border-b-0 border-gray-700 rounded-2xl">
     <h3 className="text-xl  text-white font-semibold mb-2">   
      Recipro
     </h3>
@@ -100,7 +100,7 @@ return(
     </div>
     </div>
    </div>  */}
-    <div className="flex flex-col items-center justify-center p-2 m-2 text-center max-w-lg mx-auto">
+    <div className="flex flex-col items-center justify-center p-2 m-2 text-center max-w-lg mx-auto overflow-hidden  transition-all h-96 w-96 duration-300 border border-1  border-gray-700 rounded-2xl">
     <div className="text-4xl mb-4">👀</div>
     <h3 className="text-xl text-white font-semibold mb-2">See More</h3>
     <p className="text-muted-foreground text-white mb-4">

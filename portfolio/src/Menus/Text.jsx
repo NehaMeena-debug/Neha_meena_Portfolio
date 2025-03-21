@@ -19,7 +19,7 @@ const RandomTextEffect = () => {
   
   useEffect(() => {
     setDisplayText(getRandomText());
-    setTimeout(() => setDisplayText(originalText), 400);
+    setTimeout(() => setDisplayText(originalText), 300);
   }, []);
 
   const handleHover = () => {
