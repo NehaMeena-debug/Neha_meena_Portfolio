@@ -51,5 +51,3 @@ Aspiring Frontend Developer, passionate about building dynamic and engaging web 
 
 
 export default Main;
-
-
