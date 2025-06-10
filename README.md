@@ -56,5 +56,4 @@ Email    : neham.bba2023@ssism.org
 
 LinkedIn : www.linkedin.com/in/contact-neha-meena
 
-GitHub   : https://github.com/NehaMeena-debug
-
+GitHub   : https://github.com/Nehameena28
